@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import FirstComponent from "../components/FirstComponent.svelte";
     import ButtonsBox from "../components/ButtonsBox.svelte";
     import DerivedComponent from "../components/DerivedComponent.svelte";
@@ -21,13 +21,15 @@
     <div class="grid gap-2 p-4">
         <a href="/blocks">Blocks</a>
         <a href="/async">Async</a>
+        <a href="/box">Box</a>
         <img {src} alt="{name} Logo">
         <h1>Hello {name}!</h1>
         <p>This is a paragraph</p>
         <FirstComponent />
     </div>
     <div class="grid gap-2 p-4">
-
+        <a href="/capturing">Capture</a>
+        <a href="/input">Input</a>
         <ButtonsBox/>
         <DerivedComponent/>
         <GlobalStore/>

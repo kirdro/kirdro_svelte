@@ -8,6 +8,7 @@
     }
 
 
+
     console.log('>>>>>>>>>>>1', $state.snapshot(array))
     $inspect(array)
 </script>

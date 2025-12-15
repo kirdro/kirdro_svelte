@@ -1,9 +1,79 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+body {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 button {
     width: max-content;
     height: 30px;
     background: #00c6fb;
     padding: 0 10px;
     border-radius: 5px;
+}
+
+a {
+    color: #06b6d4;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    color: #fff;
+    background: linear-gradient(135deg, #06b6d4, #3b82f6);
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+    transform: translateY(-2px);
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #1f2937;
+    background: #ffffff;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #9ca3af;
+    opacity: 1;
+}
+
+input:focus {
+    border-color: transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(135deg, #06b6d4, #3b82f6) border-box;
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.25);
+    transform: translateY(-1px);
+}
+
+input:hover:not(:focus) {
+    border-color: #06b6d4;
+    box-shadow: 0 2px 8px rgba(6, 182, 212, 0.15);
+}
+
+/* Для disabled состояния */
+input:disabled {
+    background: #f3f4f6;
+    color: #9ca3af;
+    cursor: not-allowed;
+    border-color: #e5e7eb;
+}
+
+/* Для invalid состояния */
+input:invalid:not(:placeholder-shown) {
+    border-color: #ef4444;
+}
+
+input:invalid:focus:not(:placeholder-shown) {
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.25);
 }
