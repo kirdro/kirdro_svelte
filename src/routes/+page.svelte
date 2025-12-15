@@ -19,6 +19,8 @@
 
 <div class="grid grid-cols-2 gap-4">
     <div class="grid gap-2 p-4">
+        <a href="/blocks">Blocks</a>
+        <a href="/async">Async</a>
         <img {src} alt="{name} Logo">
         <h1>Hello {name}!</h1>
         <p>This is a paragraph</p>
