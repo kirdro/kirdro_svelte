@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonsBox.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DerivedComponent.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FirstComponent.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EachComponent.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GlobalStore.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PropsComponent.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/shared.svelte.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="73" />
+    <option name="cachedIndexableFilesCount" value="77" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -77,6 +80,7 @@
       <workItem from="1765536450921" duration="5796000" />
       <workItem from="1765602291654" duration="1511000" />
       <workItem from="1765622758229" duration="1615000" />
+      <workItem from="1765796343721" duration="657000" />
     </task>
     <servers />
   </component>
