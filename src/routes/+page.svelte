@@ -22,6 +22,8 @@
         <a href="/blocks">Blocks</a>
         <a href="/async">Async</a>
         <a href="/box">Box</a>
+        <a href="/transition">Transition</a>
+        <a href="/react_class">React class</a>
         <img {src} alt="{name} Logo">
         <h1>Hello {name}!</h1>
         <p>This is a paragraph</p>
@@ -30,6 +32,9 @@
     <div class="grid gap-2 p-4">
         <a href="/capturing">Capture</a>
         <a href="/input">Input</a>
+        <a href="/tooltip">Tooltip</a>
+        <a href="/custom_transition">Custom Transition</a>
+
         <ButtonsBox/>
         <DerivedComponent/>
         <GlobalStore/>
