@@ -24,6 +24,7 @@
         <a href="/box">Box</a>
         <a href="/transition">Transition</a>
         <a href="/react_class">React class</a>
+        <a href="/snippets_props">Snippets props</a>
         <img {src} alt="{name} Logo">
         <h1>Hello {name}!</h1>
         <p>This is a paragraph</p>
@@ -34,7 +35,7 @@
         <a href="/input">Input</a>
         <a href="/tooltip">Tooltip</a>
         <a href="/custom_transition">Custom Transition</a>
-
+        <a href="/snippets_render">Snippets Render</a>
         <ButtonsBox/>
         <DerivedComponent/>
         <GlobalStore/>
