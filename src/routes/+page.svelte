@@ -25,6 +25,8 @@
         { href: '/bind_this', title: 'Bind This', category: 'bindings' },
         { href: '/bind_component', title: 'Bind Components', category: 'bindings' },
         { href: '/size', title: 'Size', category: 'bindings' },
+        { href: '/bind_component_instances', title: 'Bind component instances', category: 'bindings' },
+        { href: '/binding_to_component_instances', title: 'Bind to component instances', category: 'bindings' },
     ];
 
     const categories: Record<string, string> = {
