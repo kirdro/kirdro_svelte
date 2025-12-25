@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="Add new pages, components, and motion examples&#10;&#10;- Implemented &quot;Springs,&quot; &quot;Any Snippet,&quot; &quot;Each Block Binding,&quot; &quot;Size,&quot; and &quot;Animation Values&quot; pages.&#10;- Added `FilteredList` component and supporting `data.ts` for color data manipulation.&#10;- Enhanced navigation with new links in `+page.svelte`.&#10;- Configured `vite.config.ts` with `127.0.0.1` for better development support.&#10;- Updated `.idea/workspace.xml` with relevant changes for new components.">
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_this/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_this/gradient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_this/svelte-logo-mask.svg" afterDir="false" />
+    <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`.">
+      <change afterPath="$PROJECT_DIR$/src/routes/bind_component/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/bind_component/Keypad.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1766490128712" duration="1823000" />
       <workItem from="1766642207909" duration="58000" />
       <workItem from="1766642274735" duration="599000" />
-      <workItem from="1766670991067" duration="6240000" />
+      <workItem from="1766670991067" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="Add new components and enhance layout structure&#10;&#10;- Introduced `GlobalStore`, `EachComponent`, and `PropsComponent` components.&#10;- Updated layout structure in `+page.svelte` for better organization.&#10;- Added `shared.svelte.ts` for managing global state with `counter`.&#10;- Minor updates to `.idea/workspace.xml`.">
       <option name="closed" value="true" />
@@ -192,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766678979786</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`.">
+      <option name="closed" value="true" />
+      <created>1766679778218</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766679778218</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +216,7 @@
     <MESSAGE value="Update `.idea/workspace.xml` with adjusted task durations and new task entries" />
     <MESSAGE value="Add `package-lock.json` for dependency tracking and project consistency" />
     <MESSAGE value="Add new pages, components, and motion examples&#10;&#10;- Implemented &quot;Springs,&quot; &quot;Any Snippet,&quot; &quot;Each Block Binding,&quot; &quot;Size,&quot; and &quot;Animation Values&quot; pages.&#10;- Added `FilteredList` component and supporting `data.ts` for color data manipulation.&#10;- Enhanced navigation with new links in `+page.svelte`.&#10;- Configured `vite.config.ts` with `127.0.0.1` for better development support.&#10;- Updated `.idea/workspace.xml` with relevant changes for new components." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new pages, components, and motion examples&#10;&#10;- Implemented &quot;Springs,&quot; &quot;Any Snippet,&quot; &quot;Each Block Binding,&quot; &quot;Size,&quot; and &quot;Animation Values&quot; pages.&#10;- Added `FilteredList` component and supporting `data.ts` for color data manipulation.&#10;- Enhanced navigation with new links in `+page.svelte`.&#10;- Configured `vite.config.ts` with `127.0.0.1` for better development support.&#10;- Updated `.idea/workspace.xml` with relevant changes for new components." />
+    <MESSAGE value="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`." />
   </component>
 </project>
