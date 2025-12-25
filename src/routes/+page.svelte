@@ -27,6 +27,7 @@
         <a href="/snippets_props">Snippets props</a>
         <a href="/animation_values">Animation values</a>
         <a href="/each_block_binding">Each block bindings</a>
+        <a href="/bind_this">Bind this</a>
         <img {src} alt="{name} Logo">
         <h1>Hello {name}!</h1>
         <p>This is a paragraph</p>
