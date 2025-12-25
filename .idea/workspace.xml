@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="Add `package-lock.json` for dependency tracking and project consistency">
-      <change afterPath="$PROJECT_DIR$/src/components/FilteredList.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/snippets_props/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/snippets_render/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/any_snippet/FilteredList.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/animation_values/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/any_snippet/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/any_snippet/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/each_block_binding/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/size/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/springs/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="99" />
+    <option name="cachedIndexableFilesCount" value="259" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -35,6 +40,10 @@
     &quot;accountId&quot;: &quot;174b59f5-b4a7-4fee-aee7-6122d7a229ce&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,12 +55,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;bun&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/kirill/projects/kirdro_svelte&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,10 +71,18 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/kirill/projects/kirdro_svelte/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1768078816625" />
+    <option name="spentUsd" value="0.03615" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="0" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/routes" />
@@ -71,7 +91,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -88,6 +108,15 @@
       <workItem from="1765796343721" duration="20491000" />
       <workItem from="1765869757110" duration="2499000" />
       <workItem from="1765873359007" duration="9909000" />
+      <workItem from="1766316211110" duration="140000" />
+      <workItem from="1766316372765" duration="3756000" />
+      <workItem from="1766332606397" duration="633000" />
+      <workItem from="1766406165805" duration="733000" />
+      <workItem from="1766489996285" duration="118000" />
+      <workItem from="1766490128712" duration="1823000" />
+      <workItem from="1766642207909" duration="58000" />
+      <workItem from="1766642274735" duration="599000" />
+      <workItem from="1766670991067" duration="5179000" />
     </task>
     <task id="LOCAL-00001" summary="Add new components and enhance layout structure&#10;&#10;- Introduced `GlobalStore`, `EachComponent`, and `PropsComponent` components.&#10;- Updated layout structure in `+page.svelte` for better organization.&#10;- Added `shared.svelte.ts` for managing global state with `counter`.&#10;- Minor updates to `.idea/workspace.xml`.">
       <option name="closed" value="true" />
