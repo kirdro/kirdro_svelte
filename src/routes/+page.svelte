@@ -27,6 +27,7 @@
         { href: '/size', title: 'Size', category: 'bindings' },
         { href: '/bind_component_instances', title: 'Bind component instances', category: 'bindings' },
         { href: '/binding_to_component_instances', title: 'Bind to component instances', category: 'bindings' },
+        { href: '/context', title: 'Context', category: 'context' },
     ];
 
     const categories: Record<string, string> = {
@@ -37,7 +38,8 @@
         animation: 'Animation',
         reactivity: 'Reactivity',
         snippets: 'Snippets',
-        bindings: 'Bindings'
+        bindings: 'Bindings',
+        context: 'Context'
     };
 
     const categoryColors: Record<string, string> = {
@@ -48,7 +50,8 @@
         animation: 'from-pink-500 to-rose-500',
         reactivity: 'from-cyan-500 to-teal-500',
         snippets: 'from-indigo-500 to-violet-500',
-        bindings: 'from-emerald-500 to-green-500'
+        bindings: 'from-emerald-500 to-green-500',
+        context: 'from-amber-500 to-yellow-500'
     };
 
     // Группировка по категориям

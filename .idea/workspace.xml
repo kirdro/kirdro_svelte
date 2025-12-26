@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIDiffSettings">
+    <option name="showAIDiff" value="true" />
+  </component>
+  <component name="AIDiffStorage" id="1">
+    <groups>
+      <group changeListId="a2bf2ff4-cfb3-4959-b0b1-0dc5acf78d7c" id="4" name="Add new 'LOCAL-00013' commit message and update 'localTasksCounter'" description="Adds a new 'LOCAL-00013' commit message and increments 'localTasksCounter' to 14." importance="0.7">
+        <files>
+          <file summary="Adds a new `task id=&quot;LOCAL-00013&quot;` with a detailed commit message and updates `localTasksCounter` to 14 in `.idea/workspace.xml`." importance="0.7" isPending="false">
+            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+            <ranges>
+              <range afterLine1="208" afterLine2="217" beforeLine1="215" beforeLine2="216" groupId="4" />
+              <range afterLine1="233" afterLine2="235" beforeLine1="233" beforeLine2="233" groupId="4" />
+            </ranges>
+          </file>
+        </files>
+      </group>
+      <group changeListId="f810c865-335b-4050-8f29-38eb6a4d0455" id="1" name="Update 'Changes' comment and cached file count" description="Updates the 'Changes' comment and 'cachedIndexableFilesCount' to reflect new project structure." importance="0.6">
+        <files>
+          <file summary="Updates the 'Changes' comment for `id=&quot;7fd57f1f-9e09-4088-96e3-8006444ef2fe&quot;` to describe new pages and components, and increments `cachedIndexableFilesCount` from 259 to 285 in `.idea/workspace.xml`." importance="0.6" isPending="false">
+            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+            <ranges>
+              <range afterLine1="6" afterLine2="7" beforeLine1="6" beforeLine2="14" groupId="1" />
+              <range afterLine1="8" afterLine2="8" beforeLine1="15" beforeLine2="16" groupId="1" />
+              <range afterLine1="15" afterLine2="16" beforeLine1="23" beforeLine2="24" groupId="1" />
+            </ranges>
+          </file>
+        </files>
+      </group>
+      <group changeListId="de7ca2c7-eb21-44de-be07-955d7f3b4f16" id="2" name="Adjust 'workItem' durations and add new 'workItem'" description="Adjusts existing 'workItem' durations and adds a new 'workItem' entry in the project history." importance="0.5">
+        <files>
+          <file summary="Updates duration for `workItem from=&quot;1766670991067&quot;` and adds a new `workItem from=&quot;1766730423481&quot;` in `.idea/workspace.xml`." importance="0.5" isPending="false">
+            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+            <ranges>
+              <range afterLine1="109" afterLine2="111" beforeLine1="117" beforeLine2="118" groupId="2" />
+            </ranges>
+          </file>
+        </files>
+      </group>
+      <group changeListId="f86c091a-af7e-4358-a7a9-74b9fbfd299c" id="3" name="Remove old 'LOCAL-00012' commit message" description="Removes the previous 'LOCAL-00012' commit message from the workspace history." importance="0.4">
+        <files>
+          <file summary="Removes the `MESSAGE` value for `LOCAL-00012` in `.idea/workspace.xml`." importance="0.4" isPending="false">
+            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+            <ranges>
+              <range afterLine1="233" afterLine2="233" beforeLine1="232" beforeLine2="233" groupId="3" />
+            </ranges>
+          </file>
+        </files>
+      </group>
+    </groups>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`.">
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_component_instances/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_component_instances/Canvas.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/bind_component_instances/attachments.svelte.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/binding_to_component_instances/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/binding_to_component_instances/TodoList.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/binding_to_component_instances/remove.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/binding_to_component_instances/transition.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7fd57f1f-9e09-4088-96e3-8006444ef2fe" name="Changes" comment="Add &quot;Bind component instances&quot; and &quot;Binding to component instances&quot; pages&#10;&#10;- Implemented `&quot;Bind component instances&quot;` page showcasing canvas binding, color selection, size adjustments, and menu interactions.&#10;- Added `&quot;Binding to component instances&quot;` page with Todo list example, animations, and transitions.&#10;- Created supporting components such as `Canvas`, `TodoList`, and utilities like `transition.ts` and `attachments.svelte.ts`.&#10;- Added navigation links in `+page.svelte`.&#10;- Updated `.idea/workspace.xml` with relevant task and changelist details.">
+      <change afterPath="$PROJECT_DIR$/src/routes/context/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/context/Canvas.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/context/Square.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+    </list>
+    <list id="a2bf2ff4-cfb3-4959-b0b1-0dc5acf78d7c" name="Add new 'LOCAL-00013' commit message and update 'localTasksCounter'" comment="Adds a new 'LOCAL-00013' commit message and increments 'localTasksCounter' to 14.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="de7ca2c7-eb21-44de-be07-955d7f3b4f16" name="Adjust 'workItem' durations and add new 'workItem'" comment="Adjusts existing 'workItem' durations and adds a new 'workItem' entry in the project history.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="f86c091a-af7e-4358-a7a9-74b9fbfd299c" name="Remove old 'LOCAL-00012' commit message" comment="Removes the previous 'LOCAL-00012' commit message from the workspace history.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="f810c865-335b-4050-8f29-38eb6a4d0455" name="Update 'Changes' comment and cached file count" comment="Updates the 'Changes' comment and 'cachedIndexableFilesCount' to reflect new project structure.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +78,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="259" />
+    <option name="cachedIndexableFilesCount" value="285" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -39,6 +96,19 @@
     &quot;accountId&quot;: &quot;174b59f5-b4a7-4fee-aee7-6122d7a229ce&quot;
   }
 }</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="14" start2="6" end2="7" changelist="f810c865-335b-4050-8f29-38eb6a4d0455" />
+        <range start1="15" end1="16" start2="8" end2="8" changelist="f810c865-335b-4050-8f29-38eb6a4d0455" />
+        <range start1="23" end1="24" start2="15" end2="16" changelist="f810c865-335b-4050-8f29-38eb6a4d0455" />
+        <range start1="117" end1="118" start2="109" end2="111" changelist="de7ca2c7-eb21-44de-be07-955d7f3b4f16" />
+        <range start1="215" end1="216" start2="208" end2="217" changelist="a2bf2ff4-cfb3-4959-b0b1-0dc5acf78d7c" />
+        <range start1="232" end1="233" start2="233" end2="233" changelist="f86c091a-af7e-4358-a7a9-74b9fbfd299c" />
+        <range start1="233" end1="233" start2="233" end2="235" changelist="a2bf2ff4-cfb3-4959-b0b1-0dc5acf78d7c" />
+      </ranges>
+    </file>
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -115,7 +185,9 @@
       <workItem from="1766490128712" duration="1823000" />
       <workItem from="1766642207909" duration="58000" />
       <workItem from="1766642274735" duration="599000" />
-      <workItem from="1766670991067" duration="9267000" />
+      <workItem from="1766670991067" duration="9823000" />
+      <workItem from="1766730423481" duration="165000" />
+      <workItem from="1766730599615" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="Add new components and enhance layout structure&#10;&#10;- Introduced `GlobalStore`, `EachComponent`, and `PropsComponent` components.&#10;- Updated layout structure in `+page.svelte` for better organization.&#10;- Added `shared.svelte.ts` for managing global state with `counter`.&#10;- Minor updates to `.idea/workspace.xml`.">
       <option name="closed" value="true" />
@@ -213,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766680814481</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add &quot;Bind component instances&quot; and &quot;Binding to component instances&quot; pages&#10;&#10;- Implemented `&quot;Bind component instances&quot;` page showcasing canvas binding, color selection, size adjustments, and menu interactions.&#10;- Added `&quot;Binding to component instances&quot;` page with Todo list example, animations, and transitions.&#10;- Created supporting components such as `Canvas`, `TodoList`, and utilities like `transition.ts` and `attachments.svelte.ts`.&#10;- Added navigation links in `+page.svelte`.&#10;- Updated `.idea/workspace.xml` with relevant task and changelist details.">
+      <option name="closed" value="true" />
+      <created>1766682340389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766682340389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +310,7 @@
     <MESSAGE value="Add `package-lock.json` for dependency tracking and project consistency" />
     <MESSAGE value="Add new pages, components, and motion examples&#10;&#10;- Implemented &quot;Springs,&quot; &quot;Any Snippet,&quot; &quot;Each Block Binding,&quot; &quot;Size,&quot; and &quot;Animation Values&quot; pages.&#10;- Added `FilteredList` component and supporting `data.ts` for color data manipulation.&#10;- Enhanced navigation with new links in `+page.svelte`.&#10;- Configured `vite.config.ts` with `127.0.0.1` for better development support.&#10;- Updated `.idea/workspace.xml` with relevant changes for new components." />
     <MESSAGE value="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Bind This&quot; page with gradient animation example&#10;&#10;- Implemented `&quot;Bind This&quot;` page showcasing canvas binding and custom gradient animation logic.&#10;- Added `gradient.ts` for rendering dynamic gradient backgrounds.&#10;- Included `svelte-logo-mask.svg` for masking effect.&#10;- Updated navigation links in `+page.svelte`." />
+    <MESSAGE value="Add &quot;Bind component instances&quot; and &quot;Binding to component instances&quot; pages&#10;&#10;- Implemented `&quot;Bind component instances&quot;` page showcasing canvas binding, color selection, size adjustments, and menu interactions.&#10;- Added `&quot;Binding to component instances&quot;` page with Todo list example, animations, and transitions.&#10;- Created supporting components such as `Canvas`, `TodoList`, and utilities like `transition.ts` and `attachments.svelte.ts`.&#10;- Added navigation links in `+page.svelte`.&#10;- Updated `.idea/workspace.xml` with relevant task and changelist details." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Bind component instances&quot; and &quot;Binding to component instances&quot; pages&#10;&#10;- Implemented `&quot;Bind component instances&quot;` page showcasing canvas binding, color selection, size adjustments, and menu interactions.&#10;- Added `&quot;Binding to component instances&quot;` page with Todo list example, animations, and transitions.&#10;- Created supporting components such as `Canvas`, `TodoList`, and utilities like `transition.ts` and `attachments.svelte.ts`.&#10;- Added navigation links in `+page.svelte`.&#10;- Updated `.idea/workspace.xml` with relevant task and changelist details." />
   </component>
 </project>
